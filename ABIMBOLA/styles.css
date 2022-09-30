@@ -1,0 +1,108 @@
+body {
+    background-color: #DE781F;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
+a {
+    color: #6F3C0F;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #DE781F;
+}
+
+h1, h2, h3, h4, h5, h6, .instruction {
+    font-family: 'Montserrat';
+}
+
+.container-fluid {
+    background-color: #a05a1e;
+    margin: 0;
+    padding: 2% 25%;
+}
+
+nav {
+    display: inline;
+    font-family: 'Ubuntu';
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+}
+
+.nav-items {
+    display: inline;
+}
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    font-weight: 600;
+    padding: 0 2px ;
+    position: relative;
+    word-spacing: 3px;
+}
+
+.nav-list {
+    padding: 0 1px;
+    position: absolute;
+    left: 60%;
+    top: 0;
+}
+
+
+.container {
+    color: #6F3C0F;
+    font-weight: 800;
+    padding: 3% 0;
+    text-align: center;
+}
+
+.card {
+    background-color: #fc963d;
+    border: 2px solid #5c300a;
+    border-radius: 10px;
+    margin: 0 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 3px;
+}
+
+.instruction {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+input {
+    border-radius: 3px;
+    border: #6F3C0F;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #6F3C0F;
+    color: #DE781F;
+}
+
+.btn:hover {
+    background-color: #7c4617;
+    color: #5c300a;
+}

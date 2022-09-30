@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Psalmhy Website</title>
+
+        <!-- GOOGLE FONT -->
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Niconne&family=Ubuntu&display=swap" rel="stylesheet">
+
+        <!-- CSS STYLESHEETS -->
+        <link rel="stylesheet" href="styles.css">
+
+
+    </head>
+    <body>
+
+        <div class="container-fluid">
+
+            <nav class="navbar">              
+                
+                <div class="nav-items">
+
+                    <div class="nav-brand">
+                        <a class="brand" href="#home">psalmhy</a>
+                    </div>
+
+                    <div class="nav-list">                  
+                        <ul>
+                            <li class="list-item">
+                                <a href="#">About</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#">Contact</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#">Projects</a>
+                            </li>
+
+                            <li class="list-item">
+                                <a href="Create-new-account/index.html">Sign-up</a>
+                            </li>
+
+                        </ul>           
+                    </div>
+                </div>
+                
+            </nav>
+        </div>
+
+        <div class="container">
+
+            <h2 class="heading">How to run our Website</h2>
+
+            <div class="card">
+                
+                <div class="instruction">
+                    <h5>You have to login to your account first</h5>
+                </div>
+                    <div class="card-body">
+                        <form action="process.php" method="POST">
+                            <div class="city">
+                                <label class="instruction" for="Username">Username</label>
+                                <input type="text" name="username" placeholder="Enter Username">
+                            </div>
+                            <br>
+                            <div>
+                                <label class="instruction" for="Password">Password</label>
+                                <input type="password" name="password" placeholder="Enter Password">
+                            </div>
+                            <br>
+                            <div>
+                                <input class="btn instruction" type="submit" value="Login">
+                            </div>
+                            <br>
+                            <div>
+                                <input class="btn instruction" type="reset" value="Forgot Password">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        
+
+
+
+    </body>
+</html>

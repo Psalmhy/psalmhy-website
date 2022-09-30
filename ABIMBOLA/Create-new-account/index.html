@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Psalmhy Website</title>
+        
+        <!-- GOOGLE FONT -->
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Niconne&family=Ubuntu&display=swap" rel="stylesheet">
+
+        <!-- CSS STYLESHEETS -->
+        <link rel="stylesheet" href="C:\Users\psalm\Desktop\Web development\ABIMBOLA\styles.css">
+
+    </head>
+    
+    <body>
+        <div class="container-fluid">
+
+            <nav class="navbar">              
+                
+                <div class="nav-items">
+
+                    <div class="nav-brand">
+                        <a class="brand" href="#home">psalmhy</a>
+                    </div>
+
+                    <div class="nav-list">                  
+                        <ul>
+                            <li class="list-item">
+                                <a href="#">About</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#">Contact</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#">Projects</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="C:\Users\psalm\Desktop\Web development\ABIMBOLA\index.html">Sign-in</a>
+                            </li>
+
+                        </ul>           
+                    </div>
+                </div>
+                
+            </nav>
+        </div>
+        
+        <div class="container">
+
+            <div class="card">
+
+                <h5>Please fill the form correctly</h5>
+
+                <form action="process.php" method="post">
+                    <div>
+                        <label class="instruction" for="First Name">First Name</label>
+                        <br>
+                        <input type="text" name="firstName" placeholder="First Name">
+                    </div>
+                    <br>
+                    <div>
+                        <label class="instruction" for="Middle Name">Middle Name</label>
+                        <br>
+                        <input type="text" name="middleName" placeholder="Middle Name">
+                    </div>
+                    <br>
+                    <div>
+                        <label class="instruction" for="Last Name">Last Name</label>
+                        <br>
+                        <input type="text" name="lastName" placeholder="Last Name">
+                    </div>
+                    <br>
+                    <div>
+                        <label class="instruction" for="Age">Age</label>
+                        <br>
+                        <input type="number" name="age" value="18">
+                    </div>
+                    <br>
+                    <div>
+                        <label class="instruction" for="Email Address">Email Address</label>
+                        <br>
+                        <input type="email" name="emailAddress" placeholder="example@gmail.com">
+                    </div>
+                    <br>
+                    <div>
+                        <label class="instruction" for="Gender">Gender</label>
+                        <br>
+                        <select name="gender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <input class="btn" type="submit" name="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
